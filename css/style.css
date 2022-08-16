@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px ;
+}
+.small{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+nav {
+    width: 100%;
+    height: 120px;
+    padding: 40px 100px;
+    top: 0;
+    position: fixed;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gray{
+    color: #848FAC;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+}
+/* header */
+header{
+    height: 845px;
+    width: 1440px;
+    margin-top: 120px;
+}
+.left-side{
+    display: inline-block;
+    margin-top: 205px;
+}
+.right-side{
+    margin-top: 90px;
+    position: absolute;
+}
+/* main */
+.div-with-img{
+    display: inline-block;
+    text-align: left;
+}
+.margine-left{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+.last-section{
+    margin-top: 300px;
+    text-align: center;
+}
+.carouselExampleCaptions{
+    border: 1px solid black;
+}
+/* footer */
+footer{
+    padding: 120px;
+    padding-bottom: 70px;
+    background: #0B265A;
+}
+.first-div-footer{
+    margin-left: 120px;
+}
+.second-div-footer{
+    margin-left: 400px;
+}
+.third-div-footer{
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 70px;
+}
+.forth-div-footer{
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 250px;
+}
